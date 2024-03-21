@@ -1,0 +1,11 @@
+# Exported from Render on 2024-03-21T15:34:07Z
+services:
+- type: redis
+  name: dovaman
+  plan: free
+  region: oregon
+  maxmemoryPolicy: allkeys-lru
+  ipAllowList:
+  - source: 81.111.47.240/32
+    description: vaseramin feodo (feodovaseramin@gmail.com)
+version: "1"
